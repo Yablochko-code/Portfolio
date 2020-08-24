@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт-Портфолио</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="header"> 
+    <div class="container">
+      <div class="header-box">
+        <a href="" class="header__logo logo-link">
+          <img class="header__logo-img logo-img" src="images/logo.png" alt="logo">
+        </a>
+        <div class="header__socials">
+          <a href="#" class="header__social-link social-link">
+            <img class="header__social-icon social-icon" src="images/socials/github.svg" alt="GitHub">
+          </a>
+          <a href="#" class="header__social-link social-link">
+            <img class="header__social-icon social-icon" src="images/socials/twitter.svg" alt="Twitter">
+          </a>
+          <a href="#" class="header__social-link social-link">
+            <img class="header__social-icon social-icon" src="images/socials/instagram.svg" alt="instagram">
+          </a>
+          <a href="#" class="header__social-link social-link">
+            <img class="header__social-icon social-icon" src="images/socials/facebook.svg" alt="facebook">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="hero">
+        <div class="hero__text">
+          <p class="hero__subtitle">Фрилансер</p>
+          <h1 class="hero__title">Yablochko.code</h1>
+          <p class="hero__descr">Разрабатываю сайты для малого и среднего бизнеса. Уменя можно заказать дизайн и верстку не большого сайта или интернет магазина</p>
+          <button class="hero__btn btn">Связаться</button>
+        </div>
+        <div class="hero__avatar">
+          <img class="hero__avatar-img" src="images/avatar.jpg" alt="avatar">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="features section">
+      <div class="container">
+        <div class="features__inner">
+          <h2 class="features__title section-title">Со мной удобно работать</h2>
+          <ul class="features__list">
+            <li class="features__item">
+              <img class="features__item-icon" src="images/icons/offer-img.svg" alt="icon">
+              <h3 class="features__item-title">По договору</h3>
+              <p class="features__item-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+            </li>
+            <li class="features__item">
+              <img class="features__item-icon" src="images/icons/deadline-img.svg" alt="icon">
+              <h3 class="features__item-title">Точно в срок</h3>
+              <p class="features__item-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
+            </li>
+            <li class="features__item">
+              <img class="features__item-icon" src="images/icons/agreement-img.svg" alt="icon">
+              <h3 class="features__item-title">Ценник под вас</h3>
+              <p class="features__item-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+            </li>
+            <li class="features__item">
+              <img class="features__item-icon" src="images/icons/steps-img.svg" alt="icon">
+              <h3 class="features__item-title">Премежуточные итоги</h3>
+              <p class="features__item-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком. </p>
+            </li>
+            <li class="features__item">
+              <img class="features__item-icon" src="images/icons/storage-img.svg" alt="icon">
+              <h3 class="features__item-title">Хостинг и домен </h3>
+              <p class="features__item-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+            </li>
+            <li class="features__item">
+              <img class="features__item-icon" src="images/icons/conversation-img.svg" alt="icon">
+              <h3 class="features__item-title">Не брошу после сдачи</h3>
+              <p class="features__item-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="projects section">
+      <div class="container">
+        <h2 class="projects__title section-title">Последние проекты</h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="project__slide swiper-slide">
+              <img class="project__slide-img" src="images/project-img.jpg" alt="project-img">
+              <div class="project__slide-text">
+                <h3 class="project__slide-title">Сайт строительной фирмы “Велстрой”</h3>
+                <div class="project__slide-time">
+                  <img class="project__slide-icon" src="images/icons/time-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Сроки</h4>
+                    <p class="project__slide-paragraph">4 рабочих дня</p>
+                  </div>
+                </div>
+                <div class="project__slide-cost">
+                  <img class="project__slide-icon" src="images/icons/cost-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Стоимость</h4>
+                    <p class="project__slide-paragraph">14 000 рублей </p>
+                  </div>
+                </div>
+                <div class="project__slide-feedback">
+                  <img class="project__slide-icon" src="images/icons/feedback-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Отзыв клиента</h4>
+                    <p class="project__slide-paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project__slide swiper-slide">
+              <img class="project__slide-img" src="images/project-img.jpg" alt="project-img">
+              <div class="project__slide-text">
+                <h3 class="project__slide-title">Сайт строительной фирмы “Велстрой”</h3>
+                <div class="project__slide-time">
+                  <img class="project__slide-icon" src="images/icons/time-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Сроки</h4>
+                    <p class="project__slide-paragraph">4 рабочих дня</p>
+                  </div>
+                </div>
+                <div class="project__slide-cost">
+                  <img class="project__slide-icon" src="images/icons/cost-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Стоимость</h4>
+                    <p class="project__slide-paragraph">14 000 рублей </p>
+                  </div>
+                </div>
+                <div class="project__slide-feedback">
+                  <img class="project__slide-icon" src="images/icons/feedback-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Отзыв клиента</h4>
+                    <p class="project__slide-paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project__slide swiper-slide">
+              <img class="project__slide-img" src="images/project-img.jpg" alt="project-img">
+              <div class="project__slide-text">
+                <h3 class="project__slide-title">Сайт строительной фирмы “Велстрой”</h3>
+                <div class="project__slide-time">
+                  <img class="project__slide-icon" src="images/icons/time-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Сроки</h4>
+                    <p class="project__slide-paragraph">4 рабочих дня</p>
+                  </div>
+                </div>
+                <div class="project__slide-cost">
+                  <img class="project__slide-icon" src="images/icons/cost-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Стоимость</h4>
+                    <p class="project__slide-paragraph">14 000 рублей </p>
+                  </div>
+                </div>
+                <div class="project__slide-feedback">
+                  <img class="project__slide-icon" src="images/icons/feedback-icon.svg" alt="icon">
+                  <div class="project__slide-descr">
+                    <h4 class="project__slide-subtitle">Отзыв клиента</h4>
+                    <p class="project__slide-paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section">
+    <div class="container">
+      <h2 class="footer__title section-title">Свяжитесь со мной</h2>
+      <div class="contacts">
+        <form action="#" class="contacts-form">
+          <h3 class="contacts-form__title">Можете просто оставить заявку</h3>
+          <label for="name"></label>
+          <input type="text" id="name" name="name" class="contacts-form__input-name input" placeholder="Ваше имя" required>
+          <label for="tel"></label>
+          <input type="tel" id="tel" name="tel" class="contacts-form__input-phone input" placeholder="Ваше e-mail" required>
+          <label for="email"></label>
+          <input type="email" id="email" name="email" class="contacts-form__input-email input" placeholder="Ваше e-mail" required>
+          <button class="contacts-form__btn btn">Бесплатная консультация</button>
+        </form>
+        <div class="contacts-text">
+          <div class="contacts-data">
+            <h4 class="contacts__title">Телефон</h4>
+            <a class="contacts__link" href="tel:+79999999999">+7 999 123 45 67</a>
+          </div>
+          <div class="contacts-email">
+            <h4 class="contacts__title">Почта</h4>
+            <a class="contacts__link" href="mailto:web.dev@mail.ru">web.dev@mail.ru</a>
+          </div>
+          <div class="contacts-socials">
+            <h4 class="contacts__title">Соцсети</h4>
+            <a class="contacts__link" href="https://t.me/web1developer">Telegram</a>
+            <a class="contacts__link" href="https://vk.com/webdev21">Вконтакте</a>
+            <a class="contacts__link" href="https://t.me/web1developer">Telegram</a>
+          </div>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link social-link">
+              <img class="footer__social-icon social-icon" src="images/socials/github.svg" alt="GitHub">
+            </a>
+            <a href="#" class="footer__social-link social-link">
+              <img class="footer__social-icon social-icon" src="images/socials/twitter.svg" alt="Twitter">
+            </a>
+            <a href="#" class="footer__social-link social-link">
+              <img class="footer__social-icon social-icon" src="images/socials/instagram.svg" alt="instagram">
+            </a>
+            <a href="#" class="footer__social-link social-link">
+              <img class="footer__social-icon social-icon" src="images/socials/facebook.svg" alt="facebook">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
